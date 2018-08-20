@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 130px;
+  padding: 0;
+  min-height: 100vh;
+  height: 100%;
+  background-color: whitesmoke;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#players {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#players td,
+#players th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#players tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#players tr:hover {
+  background-color: #ddd;
+}
+
+#players th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #535353;
+  color: white;
+}
+#filters {
+  display: flex;
+}
+#filters input,
+#filters select {
+  padding: 5px;
+  margin-right: 2%;
+}
